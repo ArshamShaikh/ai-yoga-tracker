@@ -1,0 +1,42 @@
+# Node & Dependencies
+node_modules/
+package-lock.json.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo & Web
+.expo/
+dist/
+web-build/
+
+# Android Native Builds
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+*.iml
+*.hprof
+*.jsbundle
+
+# Python Cache & Bytecode
+__pycache__/
+scripts/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary / Scratch Files
+test_link.docx
+synopsis_dump.txt
+synopsis_utf8.txt
+scripts/test_restart_proper.docx
+scripts/heading_pages.txt
+Documents/word/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

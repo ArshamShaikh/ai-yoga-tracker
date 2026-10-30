@@ -1,0 +1,19 @@
+{
+    "expo": {
+        "name": "AI Yoga Tracker",
+        "slug": "ai-yoga-tracker",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "backgroundColor": "#111111"
+        },
+        "android": {
+            "package": "com.arsham11.aiyogatracker"
+        },
+        "scheme": "ai-yoga-tracker",
+        "plugins": [
+            "expo-router"
+        ]
+    }
+}

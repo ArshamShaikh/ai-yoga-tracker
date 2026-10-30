@@ -1,0 +1,2787 @@
+{
+  "categories": [
+    {
+      "id": "standing",
+      "label": "Standing Poses"
+    },
+    {
+      "id": "prone",
+      "label": "Floor / Prone"
+    },
+    {
+      "id": "inverted_v",
+      "label": "Inversions"
+    },
+    {
+      "id": "lunge",
+      "label": "Lunges"
+    },
+    {
+      "id": "seated",
+      "label": "Seated Poses"
+    },
+    {
+      "id": "balance",
+      "label": "Balancing Poses"
+    },
+    {
+      "id": "core",
+      "label": "Core Strength"
+    },
+    {
+      "id": "restorative",
+      "label": "Restorative"
+    }
+  ],
+  "yoga_poses": [
+    {
+      "id": "tadasana",
+      "name": "Mountain Pose",
+      "sanskrit": "Tadasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Spine Verticality",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 170,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Stand taller, lengthen your spine and draw shoulders back.",
+            "high": "Maintain a neutral, tall spine without arching backwards."
+          }
+        },
+        {
+          "name": "Left Knee Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 170,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Engage your thighs and straighten your legs gently.",
+            "high": "Avoid locking or hyperextending your knees."
+          }
+        }
+      ]
+    },
+    {
+      "id": "urdhva_hastasana",
+      "name": "Upward Salute",
+      "sanskrit": "Urdhva Hastasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Arm Elevation",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_SHOULDER",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Reach your arms higher toward the sky.",
+            "high": "Stretch fingertips tall while keeping shoulders relaxed."
+          }
+        },
+        {
+          "name": "Spine Extension",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Stand tall, don't collapse through your core.",
+            "high": "Gently lift your chest without over-arching your lower back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "uttanasana",
+      "name": "Standing Forward Bend",
+      "sanskrit": "Uttanasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Hip Fold Hinge",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 20,
+            "max": 65
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Hinge deeper from your hip crease toward your thighs.",
+            "high": "Fold forward from the hips, relaxing your crown down."
+          }
+        },
+        {
+          "name": "Leg Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 155,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep a gentle micro-bend if hamstrings feel tight.",
+            "high": "Firm your quads to deepen the hamstring release."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_uttanasana",
+      "name": "Halfway Lift",
+      "sanskrit": "Ardha Uttanasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Spine Flat Back",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift your chest higher to create a flat table-top back.",
+            "high": "Hinge forward slightly so your spine is parallel to the floor."
+          }
+        },
+        {
+          "name": "Straight Legs",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Lengthen through the back of your knees.",
+            "high": "Maintain strong, grounded legs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "phalakasana",
+      "name": "Plank Pose",
+      "sanskrit": "Phalakasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Core Line",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Don't let your hips sag, engage your abs strongly.",
+            "high": "Lower your hips so body forms one straight diagonal line."
+          }
+        },
+        {
+          "name": "Straight Arms",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press floor away, straighten arms without locking elbows.",
+            "high": "Maintain strong active arms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaturanga_dandasana",
+      "name": "Four-Limbed Staff",
+      "sanskrit": "Chaturanga Dandasana",
+      "orientation": "prone",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Elbow 90 Degree Bend",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 85,
+            "max": 105
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Don't drop past 90 degrees to protect your shoulders.",
+            "high": "Lower your torso down until elbows reach a right angle."
+          }
+        },
+        {
+          "name": "Torso Planking",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep your core elevated, don't let hips droop.",
+            "high": "Hold a steady plank line through your torso."
+          }
+        }
+      ]
+    },
+    {
+      "id": "urdhva_mukha_svanasana",
+      "name": "Upward-Facing Dog",
+      "sanskrit": "Urdhva Mukha Svanasana",
+      "orientation": "prone",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Spine Backbend",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 120,
+            "max": 155
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Roll your shoulders back and open your chest forward.",
+            "high": "Lift through your crown, lengthen your lumbar spine."
+          }
+        },
+        {
+          "name": "Arms Straight",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press hands firmly into the mat to straighten arms.",
+            "high": "Draw shoulders down away from your ears."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bhujangasana",
+      "name": "Cobra Pose",
+      "sanskrit": "Bhujangasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Chest Lift",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 130,
+            "max": 165
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Use back muscles to lift your chest higher off mat.",
+            "high": "Lower slightly to avoid pinching lower back."
+          }
+        },
+        {
+          "name": "Elbow Microbend",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 110,
+            "max": 150
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Hug elbows in toward ribs.",
+            "high": "Keep a soft bend in your elbows, don't lock them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adho_mukha_svanasana",
+      "name": "Downward Dog",
+      "sanskrit": "Adho Mukha Svanasana",
+      "orientation": "inverted_v",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Hip Peak Apex",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 65,
+            "max": 95
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Push hips higher and back toward the wall behind you.",
+            "high": "Press chest gently toward thighs, lengthening your spine."
+          }
+        },
+        {
+          "name": "Shoulder Extension",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_SHOULDER",
+            "LEFT_HIP"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Press firmly through hands, open your armpits.",
+            "high": "Relax neck and gaze toward your navel."
+          }
+        }
+      ]
+    },
+    {
+      "id": "virabhadrasana_i",
+      "name": "Warrior I",
+      "sanskrit": "Virabhadrasana I",
+      "orientation": "lunge",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee Lunge",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 110
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Don't let front knee pass your toes.",
+            "high": "Sink deeper into front thigh, aiming for 90 degrees."
+          }
+        },
+        {
+          "name": "Back Leg Power",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Engage back quad and straighten your back leg.",
+            "high": "Ground firmly through the outer back heel."
+          }
+        },
+        {
+          "name": "Arms Overhead",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_SHOULDER",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Reach arms straight up towards the ceiling.",
+            "high": "Soften your shoulder blades down your back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "virabhadrasana_ii",
+      "name": "Warrior II",
+      "sanskrit": "Virabhadrasana II",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee 90 Degrees",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 110
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Stack your front knee over your ankle.",
+            "high": "Deepen into your front knee lunge."
+          }
+        },
+        {
+          "name": "Back Leg Anchor",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Keep your back leg straight and active.",
+            "high": "Press firmly through the pinky-toe edge of back foot."
+          }
+        },
+        {
+          "name": "Arms Parallel",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_SHOULDER",
+            "RIGHT_SHOULDER"
+          ],
+          "target": {
+            "min": 165,
+            "max": 185
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift arms parallel to the ground at shoulder height.",
+            "high": "Keep arms level and gaze over front fingertips."
+          }
+        }
+      ]
+    },
+    {
+      "id": "virabhadrasana_iii",
+      "name": "Warrior III",
+      "sanskrit": "Virabhadrasana III",
+      "orientation": "balance",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Torso-Leg T Shape",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift back leg higher to match your torso height.",
+            "high": "Square hips toward floor, creating one horizontal line."
+          }
+        },
+        {
+          "name": "Standing Leg Stability",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Straighten standing leg while keeping core engaged.",
+            "high": "Firm the standing foot into the mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trikonasana",
+      "name": "Triangle Pose",
+      "sanskrit": "Trikonasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Leg Straight",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Straighten front leg without hyper-extending the knee.",
+            "high": "Micro-bend front knee to protect joint."
+          }
+        },
+        {
+          "name": "Spine Lateral Extension",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 95,
+            "max": 125
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Hinge deeper from the hip crease sideways.",
+            "high": "Keep both sides of waist long and open."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parsvakonasana",
+      "name": "Extended Side Angle",
+      "sanskrit": "Utthita Parsvakonasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee Lunge",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 110
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Keep knee stacked over ankle.",
+            "high": "Bend front knee closer to 90 degrees."
+          }
+        },
+        {
+          "name": "Top Arm Diagonal",
+          "landmarks": [
+            "RIGHT_WRIST",
+            "RIGHT_SHOULDER",
+            "RIGHT_HIP"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Reach top arm overhead in one long diagonal line.",
+            "high": "Spin top ribs open toward the ceiling."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vrikshasana",
+      "name": "Tree Pose",
+      "sanskrit": "Vrikshasana",
+      "orientation": "balance",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Standing Leg Pillar",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 170,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Stand tall through standing leg, engage core.",
+            "high": "Root down into standing foot for balance."
+          }
+        },
+        {
+          "name": "Bent Knee Hip Opener",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 90
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Open bent knee wider out to side.",
+            "high": "Place sole of foot securely against inner calf or thigh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "utkatasana",
+      "name": "Chair Pose",
+      "sanskrit": "Utkatasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee Squat",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 90,
+            "max": 130
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Don't squat past 90 degrees, protect knees.",
+            "high": "Sit hips lower and back, as if into a chair."
+          }
+        },
+        {
+          "name": "Torso Incline",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 105,
+            "max": 140
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift your chest up more, drawing belly in.",
+            "high": "Maintain a tall chest while keeping weight in heels."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ashta_chandrasana",
+      "name": "High Lunge",
+      "sanskrit": "Ashta Chandrasana",
+      "orientation": "lunge",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee Bend",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 110
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Stack front knee above ankle.",
+            "high": "Sink hips down, bending front knee to 90 degrees."
+          }
+        },
+        {
+          "name": "Back Leg Straight",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press back heel back, straighten back leg.",
+            "high": "Keep back thigh energized."
+          }
+        }
+      ]
+    },
+    {
+      "id": "navasana",
+      "name": "Boat Pose",
+      "sanskrit": "Navasana",
+      "orientation": "core",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "V-Shape Hip Angle",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 120
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift chest higher, don't collapse lower back.",
+            "high": "Find your balance on sit bones, engage lower abs."
+          }
+        },
+        {
+          "name": "Leg Elevation",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 90,
+            "max": 165
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Lift shins parallel to the mat.",
+            "high": "Extend legs straight if core allows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vasisthasana",
+      "name": "Side Plank",
+      "sanskrit": "Vasisthasana",
+      "orientation": "core",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Lateral Core Alignment",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Lift bottom hip away from the floor.",
+            "high": "Stack shoulders and hips in one clean plane."
+          }
+        },
+        {
+          "name": "Base Arm Pillar",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press firmly through supporting palm.",
+            "high": "Keep supporting arm strong and stable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_pincha_mayurasana",
+      "name": "Dolphin Pose",
+      "sanskrit": "Ardha Pincha Mayurasana",
+      "orientation": "inversion",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Forearm 90 Degree Angle",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Keep forearms parallel, press down into forearms.",
+            "high": "Maintain strong 90 degree elbows."
+          }
+        },
+        {
+          "name": "Hip Inversion Apex",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 65,
+            "max": 95
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Walk toes closer to elbows to lift hips.",
+            "high": "Press chest gently toward thighs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shalabhasana",
+      "name": "Locust Pose",
+      "sanskrit": "Shalabhasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Posterior Chain Lift",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 150,
+            "max": 175
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Use back and glute muscles to lift chest and legs higher.",
+            "high": "Lengthen back of neck, reach toes back."
+          }
+        },
+        {
+          "name": "Straight Legs",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Straighten legs as you lift them off mat.",
+            "high": "Squeeze inner thighs toward each other."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bakasana",
+      "name": "Crow Pose",
+      "sanskrit": "Bakasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Arm Support Flexion",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 110,
+            "max": 155
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep elbows hugging in, don't splay outward.",
+            "high": "Shift weight forward into fingertips."
+          }
+        },
+        {
+          "name": "Knee to Tricep Compactness",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 45,
+            "max": 85
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Nestle knees high onto the backs of your triceps.",
+            "high": "Draw heels up toward glutes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "paschimottanasana",
+      "name": "Seated Forward Bend",
+      "sanskrit": "Paschimottanasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Pelvic Hinge",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 35,
+            "max": 85
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Hinge forward from hips, leading with your chest.",
+            "high": "Keep spine elongated, avoid rounding upper back."
+          }
+        },
+        {
+          "name": "Leg Grounding",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Press thighs down into mat.",
+            "high": "Flex toes back towards your face."
+          }
+        }
+      ]
+    },
+    {
+      "id": "janu_sirsasana",
+      "name": "Head-to-Knee Pose",
+      "sanskrit": "Janu Sirsasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Single Leg Hinge",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 90
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Rotate torso towards straight leg and fold.",
+            "high": "Lengthen crown toward toes."
+          }
+        },
+        {
+          "name": "Bent Knee Angle",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 85
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Rest bent knee comfortably open on the mat.",
+            "high": "Place foot snug against inner straight thigh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "baddha_konasana",
+      "name": "Butterfly Pose",
+      "sanskrit": "Baddha Konasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Open Knee Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 30,
+            "max": 95
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Bring soles of feet together, let knees relax open.",
+            "high": "Allow gravity to open outer hips softly."
+          }
+        },
+        {
+          "name": "Spine Height",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 140,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Sit tall on sit bones, roll shoulders back.",
+            "high": "Maintain a proud, lifted chest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kapotasana",
+      "name": "Pigeon Pose",
+      "sanskrit": "Eka Pada Rajakapotasana",
+      "orientation": "prone",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Front Hip Flexion",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 50,
+            "max": 95
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep front shin positioned to open external hip.",
+            "high": "Square hips evenly toward the front of your mat."
+          }
+        },
+        {
+          "name": "Back Leg Extension",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Extend back leg straight behind you.",
+            "high": "Point back toes directly back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_matsyendrasana",
+      "name": "Seated Spinal Twist",
+      "sanskrit": "Ardha Matsyendrasana",
+      "orientation": "seated",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Torso Spine Twist",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "RIGHT_SHOULDER",
+            "RIGHT_HIP"
+          ],
+          "target": {
+            "min": 75,
+            "max": 115
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Inhale to lengthen, exhale to spiral your ribs deeper.",
+            "high": "Sit tall on both sit bones while twisting."
+          }
+        },
+        {
+          "name": "Crossed Knee Anchor",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 45,
+            "max": 85
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Plant foot flat outside opposite knee.",
+            "high": "Hug knee close toward your chest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "setu_bandhasana",
+      "name": "Bridge Pose",
+      "sanskrit": "Setu Bandhasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Pelvic Lift Extension",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 150,
+            "max": 175
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press through heels to lift hips higher.",
+            "high": "Squeeze inner thighs parallel, keep glutes active."
+          }
+        },
+        {
+          "name": "Knee Right Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 110
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Stack knees directly over your heels.",
+            "high": "Walk feet slightly closer to your hips."
+          }
+        }
+      ]
+    },
+    {
+      "id": "balasana",
+      "name": "Child's Pose",
+      "sanskrit": "Balasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Hip to Heel Fold",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 25,
+            "max": 55
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Sink hips all the way back toward heels.",
+            "high": "Release belly and chest softly between thighs."
+          }
+        },
+        {
+          "name": "Knee Deep Bend",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 20,
+            "max": 50
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Rest knees comfortably wide on the mat.",
+            "high": "Breathe deeply into your back ribs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "savasana",
+      "name": "Corpse Pose",
+      "sanskrit": "Savasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Supine Body Alignment",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 170,
+            "max": 180
+          },
+          "variance": 10,
+          "feedback": {
+            "low": "Lie completely flat on your back, relax whole body.",
+            "high": "Rest arms gently by your sides, palms facing up."
+          }
+        }
+      ]
+    },
+    {
+      "id": "marjaryasana",
+      "name": "Cat Pose",
+      "sanskrit": "Marjaryasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Spinal Flexion",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Round your spine upward toward the ceiling, tucking tailbone.",
+            "high": "Draw navel up into spine, spreading shoulder blades wide."
+          }
+        },
+        {
+          "name": "Arm Verticality",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_ELBOW",
+            "LEFT_SHOULDER"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Press firmly through palms and straighten arms under shoulders.",
+            "high": "Keep arms perpendicular to the floor without locking joints."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bitilasana",
+      "name": "Cow Pose",
+      "sanskrit": "Bitilasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Spinal Extension",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 85,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Drop belly toward mat and gently arch your spine.",
+            "high": "Lift chest and sit bones toward ceiling, gaze softly upward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salamba_bhujangasana",
+      "name": "Sphinx Pose",
+      "sanskrit": "Salamba Bhujangasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Elbow 90 Degree Support",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Plant forearms parallel with elbows directly under shoulders.",
+            "high": "Keep elbows at right angles supporting chest lift."
+          }
+        },
+        {
+          "name": "Chest Elevation",
+          "landmarks": [
+            "LEFT_EAR",
+            "LEFT_SHOULDER",
+            "LEFT_HIP"
+          ],
+          "target": {
+            "min": 120,
+            "max": 150
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Press forearms down to draw chest forward through shoulders.",
+            "high": "Keep shoulders relaxed down away from ears."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eka_pada_rajakapotasana",
+      "name": "Pigeon Pose",
+      "sanskrit": "Eka Pada Rajakapotasana",
+      "orientation": "seated",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Back Leg Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Extend back leg straight behind hip, top of foot flat.",
+            "high": "Keep back thigh rooted and square hips forward."
+          }
+        },
+        {
+          "name": "Front Knee Deep Fold",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 85
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Keep front knee wider than hip to protect the joint.",
+            "high": "Square pelvis to front edge of mat without leaning."
+          }
+        }
+      ]
+    },
+    {
+      "id": "utthan_pristhasana",
+      "name": "Lizard Pose",
+      "sanskrit": "Utthan Pristhasana",
+      "orientation": "lunge",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Front Knee Lunge Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 110
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep front foot wide outside hands, knee tracking forward.",
+            "high": "Sink hips forward and down to stretch hip flexors."
+          }
+        },
+        {
+          "name": "Back Leg Length",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 155,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Extend back leg long behind you, pressing heel back.",
+            "high": "Keep back knee soft or lowered gently onto the mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_hanumanasana",
+      "name": "Half Splits",
+      "sanskrit": "Ardha Hanumanasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Straighten front leg, flexing front toes back toward face.",
+            "high": "Lengthen spine forward over front thigh rather than rounding back."
+          }
+        },
+        {
+          "name": "Back Knee 90 Degree Angle",
+          "landmarks": [
+            "RIGHT_HIP",
+            "RIGHT_KNEE",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Stack back hip directly over back knee.",
+            "high": "Maintain square hips facing front of mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "malasana",
+      "name": "Garland Pose",
+      "sanskrit": "Malasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Deep Squat Knee Bend",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 35,
+            "max": 65
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Squat deep with feet turned out slightly, heels grounded.",
+            "high": "Lower hips between heels while keeping chest lifted."
+          }
+        },
+        {
+          "name": "Spine Uprightness",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 60,
+            "max": 95
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Press elbows into inner knees to open chest and lengthen spine.",
+            "high": "Bring palms to heart center in prayer, collarbones wide."
+          }
+        }
+      ]
+    },
+    {
+      "id": "supta_matsyendrasana",
+      "name": "Supine Spinal Twist",
+      "sanskrit": "Supta Matsyendrasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Torso-Thigh Rotation",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 75,
+            "max": 110
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Drop bent knee across torso while keeping both shoulders grounded.",
+            "high": "Gaze gently in opposite direction of bent knees."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ananda_balasana",
+      "name": "Happy Baby Pose",
+      "sanskrit": "Ananda Balasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee 90 Degree Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 75,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Stack ankles over knees with soles of feet facing ceiling.",
+            "high": "Gently pull feet downward, drawing knees toward armpits."
+          }
+        }
+      ]
+    },
+    {
+      "id": "uttana_shishosana",
+      "name": "Extended Puppy Pose",
+      "sanskrit": "Uttana Shishosana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Hip Stack over Knee",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep hips stacked directly over knees at 90 degrees.",
+            "high": "Walk hands forward, melting chest and chin toward mat."
+          }
+        },
+        {
+          "name": "Arm Extension",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_ELBOW",
+            "LEFT_SHOULDER"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Extend arms long, pressing palms and opening shoulders.",
+            "high": "Relax forehead or chin onto mat, lengthening spine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parsva_balasana",
+      "name": "Thread the Needle",
+      "sanskrit": "Parsva Balasana",
+      "orientation": "prone",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Arm Cross Rotation",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 150,
+            "max": 180
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Slide arm under chest until shoulder rests comfortably on mat.",
+            "high": "Rest side of head on mat, feeling gentle twist in upper back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "supta_baddha_konasana",
+      "name": "Reclined Bound Angle",
+      "sanskrit": "Supta Baddha Konasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee Open Wing Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 35,
+            "max": 70
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Bring soles of feet together, letting knees fall open to sides.",
+            "high": "Relax hips and lower belly, breathing deeply."
+          }
+        }
+      ]
+    },
+    {
+      "id": "viparita_karani",
+      "name": "Legs-Up-The-Wall",
+      "sanskrit": "Viparita Karani",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Legs Inverted 90 Degrees",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Extend legs straight up perpendicular to torso.",
+            "high": "Rest back of hips flat, relaxing legs and feet completely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anjaneyasana",
+      "name": "Low Lunge",
+      "sanskrit": "Anjaneyasana",
+      "orientation": "lunge",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Front Knee 90 Degree Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 100
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Step front foot forward until knee stacks over ankle.",
+            "high": "Lower hips forward and down into front hip flexor."
+          }
+        },
+        {
+          "name": "Torso Arch",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 150,
+            "max": 180
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Sweep arms overhead, lifting ribcage away from pelvis.",
+            "high": "Gaze gently upward with open heart and relaxed neck."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parivrtta_anjaneyasana",
+      "name": "Revolved Low Lunge",
+      "sanskrit": "Parivrtta Anjaneyasana",
+      "orientation": "lunge",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Front Knee Lunge",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Maintain 90-degree bend in front knee.",
+            "high": "Hook opposite elbow outside front knee into deep twist."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parighasana",
+      "name": "Gate Pose",
+      "sanskrit": "Parighasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Extended Leg Straightness",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Extend one leg straight out to side, toes pointing forward.",
+            "high": "Reach top arm in long side stretch over ear toward foot."
+          }
+        }
+      ]
+    },
+    {
+      "id": "apanasana",
+      "name": "Knees-To-Chest",
+      "sanskrit": "Apanasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee Hug Flexion",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 30,
+            "max": 60
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Hug knees firmly toward chest, relaxing tailbone into floor.",
+            "high": "Rock gently side to side to massage lumbar spine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prasarita_padottanasana",
+      "name": "Wide-Legged Forward Fold",
+      "sanskrit": "Prasarita Padottanasana",
+      "orientation": "standing",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Legs Straight Fold",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Keep legs straight and engage quadriceps.",
+            "high": "Hinge from hips, walking hands back between feet."
+          }
+        },
+        {
+          "name": "Torso Forward Hinge",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 80
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Lower crown of head toward mat, lengthening spine.",
+            "high": "Keep weight evenly balanced across outer edges of feet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parsvottanasana",
+      "name": "Pyramid Pose",
+      "sanskrit": "Parsvottanasana",
+      "orientation": "standing",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Front Leg Straightness",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Straighten front knee, drawing front hip back.",
+            "high": "Fold torso over front thigh with flat spine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ustrasana",
+      "name": "Camel Pose",
+      "sanskrit": "Ustrasana",
+      "orientation": "prone",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Spinal Backbend Arch",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 110,
+            "max": 145
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Lift chest toward ceiling and press hips forward over knees.",
+            "high": "Reach hands back toward heels while supporting lower back."
+          }
+        },
+        {
+          "name": "Knee 90 Degree Grounding",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Keep thighs perpendicular to the floor.",
+            "high": "Do not let hips collapse backward toward calves."
+          }
+        }
+      ]
+    },
+    {
+      "id": "garudasana",
+      "name": "Eagle Pose",
+      "sanskrit": "Garudasana",
+      "orientation": "balance",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Standing Knee Bend",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 100,
+            "max": 135
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Sink hips down deeper in chair stance.",
+            "high": "Wrap thighs tightly, hooking top foot behind calf."
+          }
+        },
+        {
+          "name": "Elbow Wrap Height",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_ELBOW",
+            "LEFT_SHOULDER"
+          ],
+          "target": {
+            "min": 75,
+            "max": 105
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Lift crossed elbows up to shoulder level.",
+            "high": "Press forearms away from face, opening shoulder blades."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parivrtta_trikonasana",
+      "name": "Revolved Triangle",
+      "sanskrit": "Parivrtta Trikonasana",
+      "orientation": "standing",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Leg Straightness",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Keep both legs straight and grounded.",
+            "high": "Reach opposite hand to outside of front ankle or floor."
+          }
+        },
+        {
+          "name": "Arm Vertical Wing Span",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_SHOULDER",
+            "RIGHT_WRIST"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Extend top arm straight up, stacking shoulders in vertical line.",
+            "high": "Revolve torso fully toward side wall, gazing up toward thumb."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parivrtta_parsvakonasana",
+      "name": "Revolved Side Angle",
+      "sanskrit": "Parivrtta Parsvakonasana",
+      "orientation": "standing",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Front Knee 90 Degree Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 100
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Maintain 90-degree square bend in front knee.",
+            "high": "Hook opposite armpit outside front knee into deep rotation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_chandrasana",
+      "name": "Half Moon Pose",
+      "sanskrit": "Ardha Chandrasana",
+      "orientation": "balance",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Standing Leg Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Root down through standing leg, engaging quad.",
+            "high": "Keep standing foot pointed directly forward."
+          }
+        },
+        {
+          "name": "Floating Leg Parallel Height",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Lift floating leg parallel to the floor, foot flexed.",
+            "high": "Stack top hip directly over bottom hip, opening pelvis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parivrtta_ardha_chandrasana",
+      "name": "Revolved Half Moon",
+      "sanskrit": "Parivrtta Ardha Chandrasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Standing Leg Straightness",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Lock standing knee softly straight.",
+            "high": "Revolve torso toward front standing leg while lifting back heel."
+          }
+        }
+      ]
+    },
+    {
+      "id": "natarajasana",
+      "name": "Dancer Pose",
+      "sanskrit": "Natarajasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Standing Leg Straightness",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Keep standing leg strong and straight.",
+            "high": "Root firmly into all corners of standing foot."
+          }
+        },
+        {
+          "name": "Lifted Leg Back Extension",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "RIGHT_KNEE"
+          ],
+          "target": {
+            "min": 120,
+            "max": 165
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Kick lifted foot back and up into hand, arching back.",
+            "high": "Reach forward arm long at eye level, lifting chest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chakrasana",
+      "name": "Wheel Pose",
+      "sanskrit": "Urdhva Dhanurasana",
+      "orientation": "prone",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Spinal Arch Elevation",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 110,
+            "max": 150
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Press through hands and feet to lift pelvis toward ceiling.",
+            "high": "Engage glutes and roll inner thighs down."
+          }
+        },
+        {
+          "name": "Arm Full Extension",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_ELBOW",
+            "LEFT_SHOULDER"
+          ],
+          "target": {
+            "min": 155,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Straighten arms, pressing floor away through palms.",
+            "high": "Shift chest forward through upper arms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dhanurasana",
+      "name": "Bow Pose",
+      "sanskrit": "Dhanurasana",
+      "orientation": "prone",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Knee Kick Lift",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 140,
+            "max": 175
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Kick shins strongly back away from torso into hands.",
+            "high": "Lift chest and thighs off mat, balancing on abdomen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vasisthasana_ii",
+      "name": "Side Plank with Leg Lift",
+      "sanskrit": "Vasisthasana II",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Supporting Arm Line",
+          "landmarks": [
+            "LEFT_WRIST",
+            "LEFT_ELBOW",
+            "LEFT_SHOULDER"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Stack supporting shoulder directly above wrist.",
+            "high": "Press floor away, keeping side core engaged."
+          }
+        },
+        {
+          "name": "Leg Abduction Angle",
+          "landmarks": [
+            "LEFT_ANKLE",
+            "LEFT_HIP",
+            "RIGHT_ANKLE"
+          ],
+          "target": {
+            "min": 30,
+            "max": 70
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Lift top leg away from bottom leg, keeping hips high.",
+            "high": "Reach top arm straight up, gazing toward thumb."
+          }
+        }
+      ]
+    },
+    {
+      "id": "camatkarasana",
+      "name": "Wild Thing",
+      "sanskrit": "Camatkarasana",
+      "orientation": "balance",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Heart Open Backbend",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 130,
+            "max": 170
+          },
+          "variance": 20,
+          "feedback": {
+            "low": "Press supporting foot down to lift pelvis high.",
+            "high": "Extend top arm overhead, opening heart to sky."
+          }
+        }
+      ]
+    },
+    {
+      "id": "matsyasana",
+      "name": "Fish Pose",
+      "sanskrit": "Matsyasana",
+      "orientation": "restorative",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Thoracic Chest Lift",
+          "landmarks": [
+            "LEFT_EAR",
+            "LEFT_SHOULDER",
+            "LEFT_HIP"
+          ],
+          "target": {
+            "min": 120,
+            "max": 155
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Press forearms down to arch upper back off mat.",
+            "high": "Rest crown of head lightly on mat without bearing neck weight."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gomukhasana",
+      "name": "Cow Face Pose",
+      "sanskrit": "Gomukhasana",
+      "orientation": "seated",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Knee Stack Angle",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 35,
+            "max": 65
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Stack knees one directly on top of the other.",
+            "high": "Sit evenly on both sit bones with spine upright."
+          }
+        }
+      ]
+    },
+    {
+      "id": "virasana",
+      "name": "Hero Pose",
+      "sanskrit": "Virasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee Flexion",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 30,
+            "max": 55
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Sit between heels on mat or yoga block.",
+            "high": "Keep spine tall and tops of feet flat against floor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "padmasana",
+      "name": "Lotus Pose",
+      "sanskrit": "Padmasana",
+      "orientation": "seated",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Knee External Cross",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 30,
+            "max": 55
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Place both feet on opposite hip creases soles up.",
+            "high": "Maintain long vertical spine, hands resting on knees."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ardha_padmasana",
+      "name": "Half Lotus Pose",
+      "sanskrit": "Ardha Padmasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Knee Cross Fold",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 40,
+            "max": 70
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Place one foot on opposite thigh, other foot beneath.",
+            "high": "Rest sit bones grounded with long tall spine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dandasana",
+      "name": "Staff Pose",
+      "sanskrit": "Dandasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "90 Degree L-Shape Torso",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 100
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Sit tall with spine at 90 degrees to extended legs.",
+            "high": "Flex feet firmly and plant hands flat beside hips."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sukhasana",
+      "name": "Easy Pose",
+      "sanskrit": "Sukhasana",
+      "orientation": "seated",
+      "difficulty": "beginner",
+      "joints": [
+        {
+          "name": "Spine Verticality",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_KNEE"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Sit cross-legged comfortably with spine tall.",
+            "high": "Relax shoulders down, hands resting lightly on knees."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sarvangasana",
+      "name": "Shoulderstand",
+      "sanskrit": "Salamba Sarvangasana",
+      "orientation": "inverted_v",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Vertical Body Line",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 165,
+            "max": 180
+          },
+          "variance": 12,
+          "feedback": {
+            "low": "Walk hands up back to lift torso vertically.",
+            "high": "Point toes straight up, keeping weight on shoulders not neck."
+          }
+        }
+      ]
+    },
+    {
+      "id": "halasana",
+      "name": "Plow Pose",
+      "sanskrit": "Halasana",
+      "orientation": "inverted_v",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Hip Flexion Over Head",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 50,
+            "max": 85
+          },
+          "variance": 18,
+          "feedback": {
+            "low": "Lower feet to floor beyond head with legs straight.",
+            "high": "Interlace fingers and press arms flat against mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sirsasana_prep",
+      "name": "Dolphin Pose",
+      "sanskrit": "Ardha Sirsasana",
+      "orientation": "inverted_v",
+      "difficulty": "intermediate",
+      "joints": [
+        {
+          "name": "Forearm Support 90 Degrees",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Plant forearms parallel, elbows shoulder-distance apart.",
+            "high": "Lift hips high, pressing chest toward thighs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parsva_bakasana",
+      "name": "Side Crow",
+      "sanskrit": "Parsva Bakasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Arm Support Bend",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 110
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Bend elbows like Chaturanga to create shelf for thighs.",
+            "high": "Shift weight into hands, floating both feet off mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "astavakrasana",
+      "name": "Eight-Angle Pose",
+      "sanskrit": "Astavakrasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Elbow 90 Degree Angle",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Bend arms to 90 degrees, locking ankles together.",
+            "high": "Extend legs straight out to the side parallel to floor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eka_pada_galavasana",
+      "name": "Flying Pigeon",
+      "sanskrit": "Eka Pada Galavasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Arm Shelf 90 Degrees",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_ELBOW",
+            "LEFT_WRIST"
+          ],
+          "target": {
+            "min": 80,
+            "max": 105
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Hook front shin high on triceps in 90-degree arm shelf.",
+            "high": "Extend back leg straight back parallel to the mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tittibhasana",
+      "name": "Firefly Pose",
+      "sanskrit": "Tittibhasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Leg Straight Extension",
+          "landmarks": [
+            "LEFT_HIP",
+            "LEFT_KNEE",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 155,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Press thighs into backs of upper arms, extending legs.",
+            "high": "Flex feet and point toes, lifting chest forward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mayurasana",
+      "name": "Peacock Pose",
+      "sanskrit": "Mayurasana",
+      "orientation": "balance",
+      "difficulty": "advanced",
+      "joints": [
+        {
+          "name": "Horizontal Body Line",
+          "landmarks": [
+            "LEFT_SHOULDER",
+            "LEFT_HIP",
+            "LEFT_ANKLE"
+          ],
+          "target": {
+            "min": 160,
+            "max": 180
+          },
+          "variance": 15,
+          "feedback": {
+            "low": "Plant palms with fingers pointing back, elbows into navel.",
+            "high": "Shift forward, lifting legs and torso parallel to ground."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Figure 5.1: High-Level System Architecture Diagram of 3-Tier Edge Mobile Framework
+Figure 5.2 models the fundamental boundary: the Yoga Practitioner provides an optical camera stream and pose selection inputs; the System processes all frames locally and emits real-time visual skeletal overlays and audio cues, while logging session history and streaks to local storage.
+Figure 5.2: Data Flow Diagram Level 0 (Context Diagram)
+Figure 5.3 decomposes internal data pipelines across six discrete processes: 1.0 Frame Acquisition -> 2.0 3D BlazePose Landmark Extraction -> 3.0 Vector Kinematics & EMA Filtering -> 4.0 Routine FSM & Hold Timer Tracking -> 5.0 Debounced Audio Coaching -> 6.0 AsyncStorage Persistence.
+Figure 5.3: Data Flow Diagram Level 1 (Decomposed Processing Pipeline)
+Figure 5.4: UML Activity Diagram Modeling Autonomous Workout Session Flow
+Figure 5.5 presents the comprehensive use-case interactions between the Yoga Practitioner, the Core CV Engine, and the Local Storage subsystem.
+Figure 5.5: Comprehensive Use Case Diagram for AI-Based Yoga Trainer
+Figure 5.6: Finite State Machine (FSM) State Transition Diagram
+Figure 5.7: 3D Euclidean Vector Kinematics Geometry Model
+Figure 5.8: Temporal Signal Processing: Raw Sensor Jitter vs. Calibrated EMA Smoothing
+Figure 6.1 illustrates the modular interactions: Camera frames flow to YogaCamera, landmarks stream to PoseDetector, angles evaluate against poseConstraints.json, RoutineEngine advances timers, and FeedbackEngine triggers spoken audio.
+Figure 6.1: Module Interaction & Component Dependency Architecture
+Figure 6.2: Software Quality Assurance V-Model Lifecycle
+Figure 7.1 showcases the primary mobile home dashboard. The hero section displays the user's active workout streak (1 Day Streak), pose catalog count (75 Poses Library), and overall biomechanical form accuracy (96%). A prominent Recommended Routine card ('Sun Salutation Flow') enables immediate single-tap workout launch with zero menu friction, accompanied by a quick-practice carousel for immediate single-pose sessions.
+Figure 7.1: Studio Home Dashboard Featuring Practice Consistency, Accuracy Stats, and Flow Recommendations
+Figure 7.2 displays the comprehensive Asana Repository containing 75 scientifically indexed postures. Practitioners can perform fuzzy text searching or filter by postural category ('All', 'Standing Poses', 'Floor / Prone', etc.). Each posture card illustrates difficulty tiers ('Beginner', 'Intermediate', 'Advanced'), point rewards, and vector-rendered human anatomical pose figures that educate users on proper joint alignment before stepping onto the mat.
+Figure 7.2: Comprehensive 75-Pose Asana Repository with Category Filtering and Visual Alignment Guides
+Figure 7.3 exhibits the Curated Vinyasa Flows screen. Multi-pose sequences (such as 'Spine & Desk Relief', 7 mins, 7 poses) are choreographed with automated hold timers and autonomous pose transitions. The interface provides sequence previews showing thumbnail postures, difficulty badges, and the single-tap 'Start Flow' button governed by the underlying RoutineEngine finite state machine.
+Figure 7.3: Curated Vinyasa Routines Screen with Multi-Pose Sequences and Automated Hold Timers
+Figure 7.4 illustrates the Therapeutic Programs screen, designed for targeted orthopedic recovery and daily wellness. Programs such as 'Spine & Desk Relief' (7 min guided posture decompression), 'Sun Salutation Flow' (5 min energizing sequence), and 'Warrior Power Flow' provide structured, goal-oriented practice tracks tailored to modern postural conditions.
+Figure 7.4: Specialized Therapeutic Programs for Desk Posture Relief and Targeted Musculo-Skeletal Conditioning
+Figure 7.5 showcases the Practice Analytics & Activity tab. The dashboard tracks the user's weekly consistency matrix (highlighting active practice days), total sessions completed, cumulative time on the mat, and aggregate joint accuracy scores. All metrics are persisted offline via AsyncStorage, preserving complete privacy while fostering healthy practice habits.
+Figure 7.5: Practice Analytics Dashboard Displaying Weekly Consistency Matrix, Workout Duration, and Streaks
+Figure 7.6: Real-Time Pipeline Latency Breakdown Across Inference Stages (Total: 29.5 ms)
+Figure 7.7: Articular Joint Angle Precision: Experimental Vector Angles vs. Medical Goniometer Baseline

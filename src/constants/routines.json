@@ -1,0 +1,226 @@
+{
+    "routines": [
+        {
+            "id": "sun_salutation_a",
+            "title": "Sun Salutation A",
+            "subtitle": "Classic Surya Namaskar Vinyasa flow for energy & mobility",
+            "difficulty": "beginner",
+            "durationMinutes": 5,
+            "accentColor": "#F59E0B",
+            "icon": "sun",
+            "poses": [
+                {
+                    "poseId": "tadasana",
+                    "targetHoldSec": 5
+                },
+                {
+                    "poseId": "urdhva_hastasana",
+                    "targetHoldSec": 5
+                },
+                {
+                    "poseId": "uttanasana",
+                    "targetHoldSec": 7
+                },
+                {
+                    "poseId": "ardha_uttanasana",
+                    "targetHoldSec": 5
+                },
+                {
+                    "poseId": "phalakasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "chaturanga_dandasana",
+                    "targetHoldSec": 5
+                },
+                {
+                    "poseId": "urdhva_mukha_svanasana",
+                    "targetHoldSec": 6
+                },
+                {
+                    "poseId": "adho_mukha_svanasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "tadasana",
+                    "targetHoldSec": 5
+                }
+            ]
+        },
+        {
+            "id": "warrior_power_flow",
+            "title": "Warrior Power Flow",
+            "subtitle": "Build leg stamina, core stability, and hip opening",
+            "difficulty": "intermediate",
+            "durationMinutes": 6,
+            "accentColor": "#3B82F6",
+            "icon": "fist-raised",
+            "poses": [
+                {
+                    "poseId": "virabhadrasana_i",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "virabhadrasana_ii",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "virabhadrasana_iii",
+                    "targetHoldSec": 6
+                },
+                {
+                    "poseId": "trikonasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "parsvakonasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "vrikshasana",
+                    "targetHoldSec": 10
+                }
+            ]
+        },
+        {
+            "id": "spine_desk_rehab",
+            "title": "Spine & Desk Relief",
+            "subtitle": "Decompress vertebrae, relieve lower back pain, and open chest",
+            "difficulty": "beginner",
+            "durationMinutes": 7,
+            "accentColor": "#10B981",
+            "icon": "spa",
+            "poses": [
+                {
+                    "poseId": "tadasana",
+                    "targetHoldSec": 5
+                },
+                {
+                    "poseId": "uttanasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "adho_mukha_svanasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "bhujangasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "balasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "ardha_matsyendrasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "savasana",
+                    "targetHoldSec": 15
+                }
+            ]
+        },
+        {
+            "id": "core_and_balance",
+            "title": "Core Power & Balance",
+            "subtitle": "Strengthen abdominals, spine, and peak arm balance",
+            "difficulty": "advanced",
+            "durationMinutes": 6,
+            "accentColor": "#8B5CF6",
+            "icon": "fire",
+            "poses": [
+                {
+                    "poseId": "utkatasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "phalakasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "vasisthasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "navasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "bakasana",
+                    "targetHoldSec": 6
+                },
+                {
+                    "poseId": "balasana",
+                    "targetHoldSec": 8
+                }
+            ]
+        },
+        {
+            "id": "gentle_hip_mobility",
+            "title": "Deep Hip Opening & Flexibility",
+            "subtitle": "Release pelvic tension, tight glutes, and improve mobility",
+            "difficulty": "intermediate",
+            "durationMinutes": 8,
+            "accentColor": "#EC4899",
+            "icon": "heart",
+            "poses": [
+                {
+                    "poseId": "baddha_konasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "malasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "eka_pada_rajakapotasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "ananda_balasana",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "supta_baddha_konasana",
+                    "targetHoldSec": 15
+                }
+            ]
+        },
+        {
+            "id": "advanced_peak_power",
+            "title": "Peak Power & Inversions",
+            "subtitle": "Test balance, flexibility, and spatial awareness with advanced asanas",
+            "difficulty": "advanced",
+            "durationMinutes": 9,
+            "accentColor": "#EF4444",
+            "icon": "trophy",
+            "poses": [
+                {
+                    "poseId": "garudasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "ardha_chandrasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "natarajasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "chakrasana",
+                    "targetHoldSec": 8
+                },
+                {
+                    "poseId": "sirsasana_prep",
+                    "targetHoldSec": 10
+                },
+                {
+                    "poseId": "savasana",
+                    "targetHoldSec": 15
+                }
+            ]
+        }
+    ]
+}
